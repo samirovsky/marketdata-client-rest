@@ -1,5 +1,5 @@
 // Values a portfolio of positions at the latest quotes, with a 30-day volatility.
-import { dailyCloses, latestQuote } from "./tickerline.ts";
+import { dailyCloses, latestQuote } from "./marketdata.ts";
 
 export interface Position {
   symbol: string;
